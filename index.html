@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Court Vision | NBA 球員進攻框架分析庫</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#09090B] text-[#FAFAFA] min-h-screen font-sans antialiased">
+  <div class="max-w-4xl mx-auto px-6 py-12">
+    <header class="border-b border-[#27272A] pb-8 mb-10">
+      <div class="inline-block px-3 py-1 mb-3 text-xs font-semibold tracking-wider uppercase rounded-full bg-[#F59E0B]/10 text-[#F59E0B] border border-[#F59E0B]/30">
+        NBA Offensive Blueprint
+      </div>
+      <h1 class="text-3xl md:text-4xl font-bold tracking-tight mb-3">
+        Court Vision｜球員進攻框架分析庫
+      </h1>
+      <p class="text-[#A1A1AA] text-base md:text-lg leading-relaxed">
+        將 NBA 球星的進攻體系、核心武器庫與戰術定位，拆解為標準化的結構分析報告。
+      </p>
+    </header>
 
+    <main>
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-xl font-semibold text-[#FAFAFA]">已收錄球員分析</h2>
+        <span class="text-sm text-[#A1A1AA]">點擊卡片查看完整拆解</span>
+      </div>
+
+      <div id="players-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <a href="players/kyrie-irving.html" class="group block p-6 rounded-xl bg-[#18181B] border border-[#27272A] hover:border-[#F59E0B] transition-all duration-200">
+          <div class="flex justify-between items-start mb-3">
+            <div>
+              <span class="text-xs font-medium text-[#F59E0B]">Dallas Mavericks · #11</span>
+              <h3 class="text-xl font-bold mt-1 group-hover:text-[#F59E0B] transition-colors">Kyrie Irving</h3>
+            </div>
+            <span class="px-2.5 py-1 text-xs rounded-md bg-[#27272A] text-[#A1A1AA]">單打大師</span>
+          </div>
+          <p class="text-sm text-[#A1A1AA] leading-relaxed">
+            歷史級別的控球節奏與左右手終結能力，無死角的陣地戰破防核心。
+          </p>
+        </a>
+      </div>
+    </main>
+
+    <footer class="mt-16 pt-6 border-t border-[#27272A] text-center text-xs text-[#A1A1AA]">
+      Built with AGENTS.md Specification · Court Vision Project
+    </footer>
+  </div>
+</body>
+</html>
